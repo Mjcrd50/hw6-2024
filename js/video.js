@@ -53,9 +53,9 @@ document.getElementById("mute").addEventListener("click", function () {
 })
 
 document.getElementById("slider").addEventListener("change", function () {
-	let sliderValue = document.getElementById("slider").value;
-	video.volume = sliderValue / 100;
-	console.log(sliderValue + "%");
+	let sliderVolume = document.getElementById("slider").value;
+	video.volume = sliderVolume / 100;
+	console.log(sliderVolume + "%");
 	})
 
 document.getElementById("vintage").addEventListener("click", function () {
